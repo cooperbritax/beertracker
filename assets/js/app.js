@@ -281,3 +281,6 @@ if(!loadData()){
     // Première ouverture : initialise sans popup
     changeKeg(true);
 }
+
+const y=document.getElementById("copyrightYear");
+if(y){y.textContent=new Date().getFullYear();}
